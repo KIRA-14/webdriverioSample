@@ -1,3 +1,5 @@
+// const allure = require('allure-commandline');
+
 exports.config = {
     //
     // ====================
@@ -117,6 +119,7 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
     
+    
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
@@ -138,6 +141,10 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverScreenshotsReporting: false,
+    }]],
 
 
     
@@ -234,8 +241,11 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            browser.takeScreenshot();
+        }
+    },
 
 
     /**

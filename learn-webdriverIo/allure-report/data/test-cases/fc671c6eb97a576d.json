@@ -1,0 +1,237 @@
+{
+  "uid" : "fc671c6eb97a576d",
+  "name" : "Title Validation expecte to fail",
+  "fullName" : "Bussing Booking Page.Title Validation expecte to fail",
+  "historyId" : "93f9ab0c4dfc56902b37401fed4ecb75",
+  "time" : {
+    "start" : 1641359017197,
+    "stop" : 1641359018932,
+    "duration" : 1735
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"\n                    at Context.<anonymous> (C:\\Users\\Ravikiran\\OneDrive\\Documents\\React\\webdriverioSample\\learn-webdriverIo\\test\\specs\\/one.js:19:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"\n                    at Context.<anonymous> (C:\\Users\\Ravikiran\\OneDrive\\Documents\\React\\webdriverioSample\\learn-webdriverIo\\test\\specs\\/one.js:19:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641359017198,
+        "stop" : 1641359017752,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24956d9dd8ac66e3",
+        "name" : "Request",
+        "source" : "24956d9dd8ac66e3.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641359017753,
+        "stop" : 1641359017760,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b667f8a035d16725",
+        "name" : "Response",
+        "source" : "b667f8a035d16725.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641359017760,
+        "stop" : 1641359017785,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db3bcbcb3cfafef4",
+        "name" : "Response",
+        "source" : "db3bcbcb3cfafef4.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1641359017789,
+        "stop" : 1641359018891,
+        "duration" : 1102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1641359017800,
+          "stop" : 1641359018564,
+          "duration" : 764
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c5c7c9074f7a138d",
+          "name" : "Request",
+          "source" : "c5c7c9074f7a138d.json",
+          "type" : "application/json",
+          "size" : 37
+        }, {
+          "uid" : "e62c836c5acff352",
+          "name" : "Screenshot",
+          "source" : "e62c836c5acff352.png",
+          "type" : "image/png",
+          "size" : 1026743
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641359018892,
+        "stop" : 1641359018915,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78b97096ef4e6baf",
+        "name" : "Response",
+        "source" : "78b97096ef4e6baf.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641359018915,
+        "stop" : 1641359018928,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d4ac6f12411db48",
+        "name" : "Response",
+        "source" : "4d4ac6f12411db48.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1641359018929,
+        "stop" : 1641359018931,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"\n                    at Context.<anonymous> (C:\\Users\\Ravikiran\\OneDrive\\Documents\\React\\webdriverioSample\\learn-webdriverIo\\test\\specs\\/one.js:19:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bussing Booking Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Bussing Booking Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Title Validation expecte to fail"
+  }, {
+    "name" : "package",
+    "value" : "Bussing Booking Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc671c6eb97a576d.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

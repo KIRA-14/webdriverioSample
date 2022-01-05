@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Bussing Booking Page",
+    "children" : [ {
+      "name" : "Title Validation expecte to fail",
+      "uid" : "d97f91128c90de95",
+      "parentUid" : "795cb1b2432230671e886c94eedaf64b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641359450235,
+        "stop" : 1641359452073,
+        "duration" : 1838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Title Validation",
+      "uid" : "7f4eb187968c9f84",
+      "parentUid" : "795cb1b2432230671e886c94eedaf64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641359452073,
+        "stop" : 1641359460558,
+        "duration" : 8485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "795cb1b2432230671e886c94eedaf64b"
+  } ]
+}

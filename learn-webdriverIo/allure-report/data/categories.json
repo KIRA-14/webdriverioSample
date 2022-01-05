@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
+      "children" : [ {
+        "name" : "Title Validation expecte to fail",
+        "uid" : "d97f91128c90de95",
+        "parentUid" : "65516df092d290bdb75ef50e29850aaa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641359450235,
+          "stop" : 1641359452073,
+          "duration" : 1838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "65516df092d290bdb75ef50e29850aaa"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7f4eb187968c9f84",
+  "name" : "Title Validation",
+  "time" : {
+    "start" : 1641359452073,
+    "stop" : 1641359460558,
+    "duration" : 8485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d97f91128c90de95",
+  "name" : "Title Validation expecte to fail",
+  "time" : {
+    "start" : 1641359450235,
+    "stop" : 1641359452073,
+    "duration" : 1838
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

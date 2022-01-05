@@ -1,0 +1,252 @@
+{
+  "uid" : "d97f91128c90de95",
+  "name" : "Title Validation expecte to fail",
+  "fullName" : "Bussing Booking Page.Title Validation expecte to fail",
+  "historyId" : "93f9ab0c4dfc56902b37401fed4ecb75",
+  "time" : {
+    "start" : 1641359450235,
+    "stop" : 1641359452073,
+    "duration" : 1838
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"\n                    at Context.<anonymous> (C:\\Users\\Ravikiran\\OneDrive\\Documents\\React\\webdriverioSample\\learn-webdriverIo\\test\\specs\\/one.js:19:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"\n                    at Context.<anonymous> (C:\\Users\\Ravikiran\\OneDrive\\Documents\\React\\webdriverioSample\\learn-webdriverIo\\test\\specs\\/one.js:19:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641359450235,
+        "stop" : 1641359450823,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce06704f02712440",
+        "name" : "Request",
+        "source" : "ce06704f02712440.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641359450823,
+        "stop" : 1641359450843,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a60d1889aa48bdd3",
+        "name" : "Response",
+        "source" : "a60d1889aa48bdd3.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641359450843,
+        "stop" : 1641359450855,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a04240e42d0a3f83",
+        "name" : "Response",
+        "source" : "a04240e42d0a3f83.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1641359450858,
+        "stop" : 1641359451997,
+        "duration" : 1139
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1641359450867,
+          "stop" : 1641359451642,
+          "duration" : 775
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c50723eeba6f684e",
+          "name" : "Request",
+          "source" : "c50723eeba6f684e.json",
+          "type" : "application/json",
+          "size" : 37
+        }, {
+          "uid" : "dab084d8dfff307d",
+          "name" : "Screenshot",
+          "source" : "dab084d8dfff307d.png",
+          "type" : "image/png",
+          "size" : 1025046
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641359451998,
+        "stop" : 1641359452059,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "869a0a8236165736",
+        "name" : "Response",
+        "source" : "869a0a8236165736.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641359452059,
+        "stop" : 1641359452069,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "900e63c72280b60",
+        "name" : "Response",
+        "source" : "900e63c72280b60.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1641359452070,
+        "stop" : 1641359452072,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"\n                    at Context.<anonymous> (C:\\Users\\Ravikiran\\OneDrive\\Documents\\React\\webdriverioSample\\learn-webdriverIo\\test\\specs\\/one.js:19:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bussing Booking Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Bussing Booking Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Title Validation expecte to fail"
+  }, {
+    "name" : "package",
+    "value" : "Bussing Booking Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc671c6eb97a576d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
+      "time" : {
+        "start" : 1641359017197,
+        "stop" : 1641359018932,
+        "duration" : 1735
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d97f91128c90de95.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
