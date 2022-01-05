@@ -1,20 +1,20 @@
 [ {
-  "uid" : "7f4eb187968c9f84",
+  "uid" : "5fa6c637b7d0025a",
   "name" : "Title Validation",
   "time" : {
-    "start" : 1641359452073,
-    "stop" : 1641359460558,
-    "duration" : 8485
+    "start" : 1641361048170,
+    "stop" : 1641361057643,
+    "duration" : 9473
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d97f91128c90de95",
+  "uid" : "928f399e5358299a",
   "name" : "Title Validation expecte to fail",
   "time" : {
-    "start" : 1641359450235,
-    "stop" : 1641359452073,
-    "duration" : 1838
+    "start" : 1641361044629,
+    "stop" : 1641361048168,
+    "duration" : 3539
   },
   "status" : "failed",
   "severity" : "normal"

@@ -1,12 +1,12 @@
 {
-  "uid" : "d97f91128c90de95",
+  "uid" : "adbaff130dd38223",
   "name" : "Title Validation expecte to fail",
   "fullName" : "Bussing Booking Page.Title Validation expecte to fail",
   "historyId" : "93f9ab0c4dfc56902b37401fed4ecb75",
   "time" : {
-    "start" : 1641359450235,
-    "stop" : 1641359452073,
-    "duration" : 1838
+    "start" : 1641359017197,
+    "stop" : 1641359018932,
+    "duration" : 1735
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,7 +17,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -27,155 +27,155 @@
     "steps" : [ {
       "name" : "POST /session/:sessionId/url",
       "time" : {
-        "start" : 1641359450235,
-        "stop" : 1641359450823,
-        "duration" : 588
+        "start" : 1641359017198,
+        "stop" : 1641359017752,
+        "duration" : 554
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "ce06704f02712440",
+        "uid" : "70d44c25848570e8",
         "name" : "Request",
-        "source" : "ce06704f02712440.json",
+        "source" : "70d44c25848570e8.json",
         "type" : "application/json",
         "size" : 37
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
     }, {
       "name" : "POST /session/:sessionId/window/maximize",
       "time" : {
-        "start" : 1641359450823,
-        "stop" : 1641359450843,
-        "duration" : 20
+        "start" : 1641359017753,
+        "stop" : 1641359017760,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a60d1889aa48bdd3",
+        "uid" : "fe7dd7e4deed29d6",
         "name" : "Response",
-        "source" : "a60d1889aa48bdd3.json",
+        "source" : "fe7dd7e4deed29d6.json",
         "type" : "application/json",
         "size" : 58
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
     }, {
       "name" : "GET /session/:sessionId/title",
       "time" : {
-        "start" : 1641359450843,
-        "stop" : 1641359450855,
-        "duration" : 12
+        "start" : 1641359017760,
+        "stop" : 1641359017785,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a04240e42d0a3f83",
+        "uid" : "c05a00c6007f429f",
         "name" : "Response",
-        "source" : "a04240e42d0a3f83.json",
+        "source" : "c05a00c6007f429f.json",
         "type" : "application/json",
         "size" : 65
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
     }, {
       "name" : "GET /session/:sessionId/screenshot",
       "time" : {
-        "start" : 1641359450858,
-        "stop" : 1641359451997,
-        "duration" : 1139
+        "start" : 1641359017789,
+        "stop" : 1641359018891,
+        "duration" : 1102
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "POST /session/:sessionId/url",
         "time" : {
-          "start" : 1641359450867,
-          "stop" : 1641359451642,
-          "duration" : 775
+          "start" : 1641359017800,
+          "stop" : 1641359018564,
+          "duration" : 764
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "c50723eeba6f684e",
+          "uid" : "70086d22fe7030de",
           "name" : "Request",
-          "source" : "c50723eeba6f684e.json",
+          "source" : "70086d22fe7030de.json",
           "type" : "application/json",
           "size" : 37
         }, {
-          "uid" : "dab084d8dfff307d",
+          "uid" : "73879e3458998969",
           "name" : "Screenshot",
-          "source" : "dab084d8dfff307d.png",
+          "source" : "73879e3458998969.png",
           "type" : "image/png",
-          "size" : 1025046
+          "size" : 1026743
         } ],
         "parameters" : [ ],
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 2,
+        "hasContent" : true,
         "stepsCount" : 0,
-        "hasContent" : true
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 2,
+      "hasContent" : true,
       "stepsCount" : 1,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
     }, {
       "name" : "POST /session/:sessionId/window/maximize",
       "time" : {
-        "start" : 1641359451998,
-        "stop" : 1641359452059,
-        "duration" : 61
+        "start" : 1641359018892,
+        "stop" : 1641359018915,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "869a0a8236165736",
+        "uid" : "4a2f617505db36bf",
         "name" : "Response",
-        "source" : "869a0a8236165736.json",
+        "source" : "4a2f617505db36bf.json",
         "type" : "application/json",
         "size" : 58
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
     }, {
       "name" : "GET /session/:sessionId/title",
       "time" : {
-        "start" : 1641359452059,
-        "stop" : 1641359452069,
-        "duration" : 10
+        "start" : 1641359018915,
+        "stop" : 1641359018928,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "900e63c72280b60",
+        "uid" : "4eada18bde721c3c",
         "name" : "Response",
-        "source" : "900e63c72280b60.json",
+        "source" : "4eada18bde721c3c.json",
         "type" : "application/json",
         "size" : 65
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
     }, {
       "name" : "GET /session/:sessionId/screenshot",
       "time" : {
-        "start" : 1641359452070,
-        "stop" : 1641359452072,
+        "start" : 1641359018929,
+        "stop" : 1641359018931,
         "duration" : 2
       },
       "status" : "failed",
@@ -183,17 +183,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : true,
-    "attachmentsCount" : 7,
+    "hasContent" : true,
     "stepsCount" : 8,
-    "hasContent" : true
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -226,27 +226,12 @@
     "value" : "chrome-96.0.4664.110"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "fc671c6eb97a576d",
-      "status" : "failed",
-      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
-      "time" : {
-        "start" : 1641359017197,
-        "stop" : 1641359018932,
-        "duration" : 1735
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d97f91128c90de95.json",
+  "source" : "adbaff130dd38223.json",
   "parameterValues" : [ "chrome-96.0.4664.110" ]
 }

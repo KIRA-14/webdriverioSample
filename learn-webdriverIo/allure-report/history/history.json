@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f4eb187968c9f84",
+      "uid" : "5fa6c637b7d0025a",
       "status" : "passed",
       "time" : {
-        "start" : 1641359452073,
-        "stop" : 1641359460558,
-        "duration" : 8485
+        "start" : 1641361048170,
+        "stop" : 1641361057643,
+        "duration" : 9473
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d97f91128c90de95",
+      "uid" : "928f399e5358299a",
       "status" : "failed",
       "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"blue\"\n                Received string:    \"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India\"",
       "time" : {
-        "start" : 1641359450235,
-        "stop" : 1641359452073,
-        "duration" : 1838
+        "start" : 1641361044629,
+        "stop" : 1641361048168,
+        "duration" : 3539
       }
     } ]
   }

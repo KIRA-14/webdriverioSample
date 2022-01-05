@@ -3,36 +3,36 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Title Validation expecte to fail",
-    "uid" : "d97f91128c90de95",
+    "uid" : "928f399e5358299a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1641359450235,
-      "stop" : 1641359452073,
-      "duration" : 1838
+      "start" : 1641361044629,
+      "stop" : 1641361048168,
+      "duration" : 3539
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-96.0.4664.110" ]
   }, {
     "name" : "Title Validation",
-    "uid" : "7f4eb187968c9f84",
+    "uid" : "5fa6c637b7d0025a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641359452073,
-      "stop" : 1641359460558,
-      "duration" : 8485
+      "start" : 1641361048170,
+      "stop" : 1641361057643,
+      "duration" : 9473
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-96.0.4664.110" ]
   } ]

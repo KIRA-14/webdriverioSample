@@ -4,42 +4,8 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Title Validation expecte to fail",
-      "uid" : "fc671c6eb97a576d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1641359017197,
-        "stop" : 1641359018932,
-        "duration" : 1735
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
-      "name" : "Title Validation expecte to fail",
-      "uid" : "d97f91128c90de95",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1641359450235,
-        "stop" : 1641359452073,
-        "duration" : 1838
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
       "name" : "Title Validation",
-      "uid" : "39f00a64cf1bac71",
+      "uid" : "bea81502bf5615de",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -55,8 +21,25 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
+      "name" : "Title Validation expecte to fail",
+      "uid" : "f50461b9642da4c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641359450235,
+        "stop" : 1641359452073,
+        "duration" : 1838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
       "name" : "Title Validation",
-      "uid" : "7f4eb187968c9f84",
+      "uid" : "57814a856fc4939d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -68,12 +51,46 @@
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 3,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Title Validation",
-      "uid" : "8d5e0d0fd3f16184",
+      "uid" : "b6a958347499f67a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641359018934,
+        "stop" : 1641359027293,
+        "duration" : 8359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Title Validation",
+      "uid" : "5fa6c637b7d0025a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641361048170,
+        "stop" : 1641361057643,
+        "duration" : 9473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Title Validation",
+      "uid" : "570c33f30893dce8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -89,14 +106,48 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
+      "name" : "Title Validation expecte to fail",
+      "uid" : "928f399e5358299a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641361044629,
+        "stop" : 1641361048168,
+        "duration" : 3539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
       "name" : "Title Validation",
-      "uid" : "ce0df8da5893649a",
+      "uid" : "75c4f4e15bb323f6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1641359018934,
-        "stop" : 1641359027293,
-        "duration" : 8359
+        "start" : 1641361032887,
+        "stop" : 1641361044628,
+        "duration" : 11741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Title Validation expecte to fail",
+      "uid" : "adbaff130dd38223",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641359017197,
+        "stop" : 1641359018932,
+        "duration" : 1735
       },
       "flaky" : false,
       "newFailed" : false,
